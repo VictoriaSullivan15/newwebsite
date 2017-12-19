@@ -2,6 +2,7 @@
 
 .circle {
   border-radius: 100px;
+  cursor: pointer;
 }
 
 .bg-white {
@@ -10,4 +11,16 @@
 
 .jumbotron {
   margin: 0;
+}
+
+.back-to-top {
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display:none;
+}
+
+body {
+  font-family: 'Helvetica'
 }
